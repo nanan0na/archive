@@ -20,46 +20,51 @@ a:hover {
   text-decoration: none;
 }
 .inner {
-  width: 68rem;
+  width: 74rem;
   margin: 0 auto;
 }
 
 /* section */
 .box-wrap {
-  margin: 10% auto;
+  margin: 6% auto;
   width: 80rem;
+  width: 78%;
   height: 60rem;
+
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(217, 217, 217, 0.1);
-  padding: 5rem 6rem;
+  padding: 3%;
 }
 .box-top {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 3.2rem;
+  gap: 5%;
+  padding-top: 3%;
+  padding-left: 3%;
 }
 .box-top figure {
-  width: 13rem;
+  /*   width: 13rem; */
+  width: 22%;
   height: 16rem;
   border-radius: 5px;
   background: #838383;
 }
 .box-top .box-top-title h1 {
-  font-size: 2.4rem;
+  font-size: 2.6vh;
   font-weight: 400;
 }
 .box-top .box-top-title strong {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 2vh;
   color: rgba(255, 255, 255, 0.8);
   display: block;
 }
 .box-top .box-top-title span {
   display: block;
   margin-top: 1.8rem;
-  width: 52rem;
+  width: 170%;
   height: 0.5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -67,15 +72,36 @@ a:hover {
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.8);
   display: block;
+
   margin-top: 2.6rem;
 }
 .box-bottom {
   margin-top: 6.5rem;
   color: rgba(255, 255, 255, 0.8);
+  padding-top: 3%;
+  padding-left: 3%;
 }
 .box-bottom p {
   font-size: 1.5rem;
   font-weight: 300;
   display: block;
   margin-top: 1.2rem;
+  width: 100%;
+}
+
+/* 반응형 */
+@media (max-width: 900px) {
+  .box-top .box-top-title span {
+    width: 140%;
+  }
+}
+@media (max-width: 700px) {
+  .box-top .box-top-title span {
+    width: 120%;
+  }
+}
+@media (max-width: 630px) {
+  .box-top .box-top-title span {
+    width: 100%;
+  }
 }
