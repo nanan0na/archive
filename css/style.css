@@ -1,0 +1,81 @@
+@charset 'utf-8';
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+
+body {
+  background: #600000;
+  color: #fff;
+  height: 100vh;
+  font: 2rem/1.5 'Pretendard', sans-serif;
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+label,
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+.inner {
+  width: 68rem;
+  margin: 0 auto;
+}
+
+/* section */
+.box-wrap {
+  margin: 10% auto;
+  width: 80rem;
+  height: 60rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(217, 217, 217, 0.1);
+  padding: 5rem 6rem;
+}
+.box-top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3.2rem;
+}
+.box-top figure {
+  width: 13rem;
+  height: 16rem;
+  border-radius: 5px;
+  background: #838383;
+}
+.box-top .box-top-title h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.box-top .box-top-title strong {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+}
+.box-top .box-top-title span {
+  display: block;
+  margin-top: 1.8rem;
+  width: 52rem;
+  height: 0.5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.box-top .box-top-title p {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  margin-top: 2.6rem;
+}
+.box-bottom {
+  margin-top: 6.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.box-bottom p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: block;
+  margin-top: 1.2rem;
+}
